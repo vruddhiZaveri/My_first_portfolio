@@ -1,0 +1,115 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ffe4ec, #fff1f6);
+    color: #444;
+}
+
+/* Header */
+header {
+    background-color: #ffb6c1;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    color: #fff;
+}
+
+/* Navigation */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: white;
+    font-weight: 500;
+    background: rgba(255,255,255,0.2);
+    padding: 6px 14px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+
+    background: white;
+    color: #ff69b4;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(255,105,180,0.4);
+}
+
+
+/* Main Content */
+.container {
+    max-width: 900px;
+    flex: 1;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* Headings */
+h2 {
+    color: #ff69b4;
+}
+
+/* Cards */
+.card {
+    background: #fff0f5;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 15px 0;
+    transition: all 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 25px rgba(255,182,193,0.6);
+}
+
+/* List */
+ul {
+    list-style: "🌸 ";
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #ffb6c1;
+    color: white;
+    margin-top: 40px;
+}
+
+
+.pixel {
+    font-family: "Courier New", monospace;
+    font-size: 28px;
+    text-align: center;
+    margin: 20px 0;
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+    100% { transform: translateY(0); }
+}
+
+
+.header-graphic {
+    mix-blend-mode: multiply;
+}
+
+
